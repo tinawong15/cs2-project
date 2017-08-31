@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Chwong Farmers' Market Selector</title>
+  </head>
+  
+  <body><div align='center'>
+    <h1>Chwong Farmers' Market Selector</h1>
+      <form action="backEnd.py">
+      Would you like to see the all the farmers' markets listed in the NYC area?
+      <a href = "http://clyde.stuy.edu/~bchong/project/dataset.py">click here</a>
+      <br><br>
+      If not, filter from below. All filters are optional. &darr;
+      <hr>
+      Market Name: <input type="text" name="marketname" size="20" placeholder="ex: Greenmarket">
+      <br>
+      <br>
+    	Borough: <select name='borough'>
+    		<option value='Select'>Select</option>
+        	<option value='Queens'>Queens</option>
+        	<option value='Brooklyn'>Brooklyn</option>
+        	<option value='Bronx'> Bronx </option>
+        	<option value ='Manhattan'>Manhattan</option>
+        	<option value = 'Staten Island'>Staten Island</option>
+        </select>
+        <br><br>
+        <div style="border: 1px solid black"> 
+        Days Open: <br>
+        Monday <input type = "checkbox" name = "mon" value= "Monday"><br>
+        Tuesday <input type = "checkbox" name = "tue" value= "Tuesday"><br>
+        Wednesday <input type = "checkbox" name = "wed" value= "Wednesday"><br>
+        Thursday <input type = "checkbox" name = "thur" value= "Thursday"><br>
+        Friday <input type = "checkbox" name = "fri" value= "Friday"><br>
+        Saturday <input type = "checkbox" name = "sat" value= "Saturday"><br>
+        Sunday <input type = "checkbox" name = "sun" value= "Sunday"><br>
+        </div>
+        <br>
+        Distribute Health Bucks? <input type = "checkbox" name = "distribHB" value = "Distribute">
+        <br>
+        Accepts Health Bucks? <input type = "checkbox" name = "acceptHB" value = "Accepts">
+        <br><br>
+        Accepts EBT payments? <input type = "checkbox" name = "EBT" value = "EBT Allowed">
+        <br><br>
+        Part of the Stellar Markets Program? <input type = "checkbox" name = "stellar" value = "Stellar">
+        <br><br>
+    	<input type = "submit" name = "submit" value = "Show Me!">
+      </form>
+  </div></body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chong Wong Documentation</title>
+</head>
+<body>
+
+<h1> Description </h1>
+<p style="color: black;"> Our website will benefit a user that is interested in knowing the locations, days, financial aid, and hours of farmers' markets in New York City boroughs. A user will be able to browse based on a specific aspect, such as borough, and receive the names of the farmers markets applicable and their respective data.
+ </p>
+<h2> motivating questions </h2>
+
+<ul style="color: black;">
+  <li> What markets are open on certain days, for example, Thursday?</li>
+  <li> Which markets offer financial help?</li>
+  <li> What are all the markets that are in this borough?</li>
+  <li> How many markets are in Queens and open on Wednesdays?</li>
+  <li> What is the exact street address of a specific market?</li>
+</ul>
+
+
+<h1> Personnel </h1>
+<p style="color: black;"> Brandon Chong 2/5</p>
+<p style="color: black;"> Tina Wong 3/5</p>
+<p style="color: black;"> I, Brandon Chong, admit that Tina Wong did 60% of the project and that I did 40%. We did, however, work on most of the parts together. </p>
+
+<h1> Citations</h1>
+<h2> people </h2>
+<p style="color: black;"> Mr. Holmes taught us how to create a shared directory that both partners could contribute to. He also contributed this documentation template and a timesheet.</p>
+<h2> programming </h2>
+<p style="color: black;"> We used <a href="https://www.w3schools.com/" target="_blank">w3schools.com</a> to understand the HTML align, width, and height attributes, the HTML symbols, such as the UTF-8 arrows, the div tag, and the placeholder attribute.</p>
+<p style="color:black;">The syntax for a <a href="http://davidmholmes.net/Stuy/2intro/notes.html#2017-02-06" target="_blank">minimal web page</a> was used, taken from the Notes section of Mr. Holmes' website.
+<p style="color:black;">The syntax for <a href="http://davidmholmes.net/Stuy/2intro/notes/htmlElementsForForms.html">HTML form elements</a> was provided by Mr. Holmes and created mostly by Mr. Brooks.
+<p style="color:black;">An additional reference that was helpful was the <a href="https://docs.python.org/2/" target="_blank">Python 2.7.13 documentation</a>.</p>
+<h2> data sources </h2>
+<a href="https://data.cityofnewyork.us/Business/2012-NYC-Farmers-Market-List/b7kx-qikm" target="_blank">2012 NYC Farmers Market List</a>
+  <br>
+  <br>
+<a href="http://qns.com/wp-content/uploads/2016/06/shutterstock_74858629.jpg" target="_blank">image used in index.html</a>
+
+<h1> Desirable features, with time estimates</h1>
+<ul><li>A functional front end html form that is able to access the backend. (1)</li>
+<li>A filter search so one may find a table of markets that fit the user's requirements. (3)</li></ul>
+<h1 id="achievements"> Achievements </h1>
+<p style="color: black;"> We have successfully created a working website 
+  that a user may use with ease. Our achievements include:
+  <ul><li>Taking the csv data and separating it into dictionaries that can be used in code (.4)</li>
+  <li>A functional front end html form that is able to access the backend. (1)</li>
+  <li>A web page that provides a table with an overview of the dataset (.8)</li>
+  <li>A filter search so one may find a table of markets that fit the user's requirements. The filtering can be as specific or as general as possible. A user may filter by:
+  <ul><li>borough (.5)</li>
+  <li>days a market is open (1)</li>
+  <li>name of market (.4)</li>
+  <li>distribution of health bucks (.2)</li>
+  <li>accepting health bucks (.2)</li>
+  <li>accepting EBT payments (.2)</li>
+  <li>Stellar Markets Program (.2)</li></ul></li>
+<li>A Python program where the number of results from the user's query is listed in the caption. (1)</li>
+</ul></p>
+
+<h2 id="features"> features of note </h2>
+<p style="color: black;">Starting from our index, one could click the link to a filtered search. From there, one may choose a variety of searches. If one does not fill out a filter, the search will be perfectly fine because the filter function doesn't require it.</p>
+<p style="color:black;">The caption for the table counts the number of results based on the amount of filtering. Therefore, it provides the summary statistic for any of the filters.</p>
+<p style="color:black;">The caption also shows all of the user's filters. This was created by implementing a function, using the cgi field storage values.</p>
+<p style="color:black;">The text input for a market name provides an example in the box. The user also does not need to input the full name of a market; for example, if the user puts only one word, all markets that include that word will show up as results. </p>
+<p style="color:black;">A link back to the index is given at the bottom of the rendering of the backEnd.py. Therefore, a user is able to scroll to the bottom of the page and is still able to easily go back and restart his or her search.</p>
+  <h2 id="learning"> learning </h2>
+<ul> <li>div tag (see Citations)</li>
+  <li>target attribute </li>
+  <li>placeholder attribute</li>
+  <li>align, width, and height attributes for an image</li>
+  <li>We at first used the <a href="https://docs.python.org/2/tutorial/datastructures.html"><code>del</code> statement</a>, but we then learned that we were unable to delete keys from a dictionary while iterating through the dictionary by a for loop. </li>
+  </ul>
+<h1> Next Steps, with time estimates </h1>
+  
+<ol start = 0>
+</ol>
+
+<h1> Finished Steps, identified by worker </h1>
+<p style="color: black;"> As you complete steps, move them from the "Next Steps" section to this section.
+For each step, identify which partner(s) did 
+the work to accomplish the step. </p>
+<ul style = "color: black;">
+<li>A functional index.html where the user can request an overview of all the data or a processed view of the data (.4) (Brandon Chong & Tina Wong)
+<li>Python program that runs on the server and sends the user a table displaying whole data set (1) (Brandon Chong & Tina Wong)</li>
+<li>Providing a processed view of data, filtered by borough and/or day based on client input (2) (Brandon Chong & Tina Wong)</li>
+<li>Implement function that can filter by Distribute and Accept Health Bucks columns (1) (Tina Wong)</li>
+<li>Implement function that can search by market name (.5) (Tina Wong)</li>
+<li>Change caption to show the number of results and show what the client requested (.6) (Tina Wong)</li> 
+  <li>Finish documentation (1) (Brandon Chong & Tina Wong)</li>
+  <li>Finish timesheet (0.4) (Brandon Chong & Tina Wong)</li>
+</ul>
+
+<h1> Bugs </h1>
+<p style="color: black;"> A bug in our filter is that the market name search is case-sensitive. </p>
+<p style="color: black;">When no query string is given, the backEnd.py raises a keyError.</p>
+<p style="color: black;">Because of the way the data is given, there are some that give a range of days open, such as 'Monday-Thursday'. The selector only takes into account those two days, and does not know that market is also open between those days.</p>
+<p style="color: black;">The links from index to documentation, filter, and overview use clyde, rather than homer. These pages would be unable to be accessed using homer.</p>
+</body>
+</html>
